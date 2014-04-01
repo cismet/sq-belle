@@ -1,4 +1,4 @@
-## sq-belle: The missing Netbeans code formatter for x-sql. 
+## The missing Netbeans code formatter for x-sql. 
 
 Did you ever try to reformat your SQL on Netbeans and nothing happened?
 
