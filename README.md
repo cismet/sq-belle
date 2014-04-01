@@ -20,8 +20,7 @@ We [forked](https://github.com/cismet/sqlparse-flask-webservice) the project and
 free use on a [cismet](http://www.cismet.de/en) host. Feel free to fork our or Andi's project to host your own formatting service. Just change the URL in the plugin settings to your own service 
 and you're done.
 
-![sq-belle-settings](https://cloud.githubusercontent.com/assets/837211/2577904/e9dfd96a-b985-11e3-8aec-9340703bf6f5.png)
-
+![](https://cloud.githubusercontent.com/assets/837211/2578707/b1072c00-b995-11e3-8c57-e99c7ec7fcf8.png)
 
 If you see room for improvement, just file an issue or fork the project and send us a pull-request. We would love to collaborate.
 
