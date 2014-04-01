@@ -4,8 +4,8 @@ Did you ever try to reformat your SQL on Netbeans and nothing happened?
 
 ![](https://cloud.githubusercontent.com/assets/837211/2577872/27e1bcb6-b985-11e3-910f-9ed6b7017a6a.jpg)
 
-This plugin adds a SQL reformatting task to our favorite IDE. Just install it via it's own [Update Center](http://helllth.github.io/sq-belle/updatecenter/updates.xml) 
-or by downloading the [NBM](http://helllth.github.io/sq-belle/downloads/sq-belle.nbm).
+This plugin adds a SQL reformatting task to our favorite IDE. Just install it via it's own [Update Center](http://cismet.github.io/sq-belle/updatecenter/updates.xml) 
+or by downloading the [NBM](http://cismet.github.io/sq-belle/downloads/sq-belle-1.0.nbm).
 
 After that it works like it should:
 
