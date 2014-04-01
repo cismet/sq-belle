@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: de.cismet.tools.sqbelle
+OpenIDE-Module-Layer: de/cismet/tools/sqbelle/layer.xml
+OpenIDE-Module-Localizing-Bundle: de/cismet/tools/sqbelle/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
