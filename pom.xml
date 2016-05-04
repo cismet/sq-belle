@@ -4,7 +4,7 @@
     <parent>
         <groupId>de.cismet</groupId>
         <artifactId>cismet-parent</artifactId>
-        <version>2.0</version>
+        <version>2.1</version>
     </parent> 
      
    
@@ -21,12 +21,6 @@
             <id>helllth</id>
             <name>Thorsten Hell</name>
             <email>th@cismet.de</email>
-            <organization>cismet GmbH</organization>
-        </developer>
-        <developer>
-            <id>mscholl</id>
-            <name>Martin Scholl</name>
-            <email>martin.scholl@cismet.de</email>
             <organization>cismet GmbH</organization>
         </developer>
     </developers>
@@ -78,6 +72,11 @@
             <artifactId>org-openide-awt</artifactId>
             <version>${netbeans.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.netbeans.api</groupId>
+            <artifactId>org-netbeans-modules-autoupdate-services</artifactId>
+            <version>${netbeans.version}</version>
+        </dependency>
     </dependencies>
     
     <repositories>
@@ -118,7 +117,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>nbm-maven-plugin</artifactId>
-                <version>3.13</version>
+                <version>3.13.2</version>
                 <extensions>true</extensions>
                 <configuration>
                     <author>Thorsten Hell @ cismet GmbH</author>
