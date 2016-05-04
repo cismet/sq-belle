@@ -10,19 +10,12 @@
     </folder>
     <folder name="Services">
         <folder name="AutoupdateType">
-            <file name="de_cismet_tools_sqbelle_update_center.instance">
-                <attr name="displayName" bundlevalue="de.cismet.tools.sqbelle.Bundle#Services/AutoupdateType/de_cismet_tools_sqbelle_update_center.instance"/>
+            <file name="de_cismet_tools_sq_belle_update_center.instance">
+                <attr name="displayName" bundlevalue="de.cismet.tools.sqbelle.Bundle#Services/AutoupdateType/de_cismet_tools_sq_belle_update_center.instance"/>
                 <attr name="enabled" boolvalue="true"/>
                 <attr name="instanceCreate" methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
                 <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
-                <attr name="url" bundlevalue="de.cismet.tools.sqbelle.Bundle#de_cismet_tools_sqbelle_update_center"/>
-            </file>
-            <file name="de_cismet_tools_sqbelle_update_center_1.instance">
-                <attr name="displayName" bundlevalue="de.cismet.tools.sqbelle.Bundle#Services/AutoupdateType/de_cismet_tools_sqbelle_update_center_1.instance"/>
-                <attr name="enabled" boolvalue="true"/>
-                <attr name="instanceCreate" methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
-                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
-                <attr name="url" bundlevalue="de.cismet.tools.sqbelle.Bundle#de_cismet_tools_sqbelle_update_center_1"/>
+                <attr name="url" bundlevalue="de.cismet.tools.sqbelle.Bundle#de_cismet_tools_sq_belle_update_center"/>
             </file>
         </folder>
     </folder>
