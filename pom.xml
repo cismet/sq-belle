@@ -39,10 +39,15 @@
     
     
     <properties>
-        <netbeans.version>RELEASE70</netbeans.version>
+        <netbeans.version>RELEASE802</netbeans.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>3.5.6-Final</version>
+        </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-api-annotations-common</artifactId>
