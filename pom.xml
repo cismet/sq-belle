@@ -10,7 +10,7 @@
    
     <groupId>de.cismet.tools</groupId>
     <artifactId>sq-belle</artifactId>
-    <version>2.1-SNAPSHOT</version>
+    <version>2.0.1</version>
     <packaging>nbm</packaging>
     
     <name>SQ-Belle</name>
@@ -28,7 +28,7 @@
         <connection>scm:git:https://github.com/cismet/sq-belle.git</connection>
         <developerConnection>scm:git:git@github.com:cismet/sq-belle.git</developerConnection>
         <url>https://github.com/cismet/sq-belle</url>
-        <tag>HEAD</tag>
+        <tag>v2.0.1</tag>
     </scm>
     
     
