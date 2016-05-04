@@ -1,13 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="de.cismet.tools.sq.belle">
-    <module_version install_time="1462355204233" last="true" origin="installer" specification_version="2.0">
-        <file crc="3295235118" name="config/Modules/de-cismet-tools-sq-belle.xml"/>
-        <file crc="1849476449" name="modules/de-cismet-tools-sq-belle.jar"/>
-        <file crc="3507015122" name="modules/ext/de.cismet.tools.sq-belle/antlr/antlr.jar"/>
-        <file crc="3507394090" name="modules/ext/de.cismet.tools.sq-belle/commons-collections/commons-collections.jar"/>
-        <file crc="2050839146" name="modules/ext/de.cismet.tools.sq-belle/dom4j/dom4j.jar"/>
-        <file crc="2715822795" name="modules/ext/de.cismet.tools.sq-belle/javax-transaction/jta.jar"/>
-        <file crc="1850917580" name="modules/ext/de.cismet.tools.sq-belle/org-hibernate/hibernate-core.jar"/>
-        <file crc="2165395198" name="modules/ext/de.cismet.tools.sq-belle/org-slf4j/slf4j-api.jar"/>
-        <file crc="3563037387" name="modules/ext/de.cismet.tools.sq-belle/xml-apis/xml-apis.jar"/>
-    </module_version>
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE module_updates PUBLIC "-//NetBeans//DTD Autoupdate Catalog 2.3//EN" "http://www.netbeans.org/dtds/autoupdate-catalog-2_3.dtd">
+<module_updates timestamp="21/57/13/04/05/2016">
+
+
+
+<module codenamebase="de.cismet.tools.sq.belle" distribution="sq-belle-2.0.2.nbm" downloadsize="3700429" homepage="https://cismet.github.io/sq-belle" license="5898AA3A" moduleauthor="Thorsten Hell @ cismet GmbH" needsrestart="false" releasedate="2016/05/04">
+    <manifest OpenIDE-Module="de.cismet.tools.sq.belle" OpenIDE-Module-Display-Category="de.cismet.tools" OpenIDE-Module-Implementation-Version="2.0.2" OpenIDE-Module-Long-Description="The missing Netbeans code formatter for x-sql." OpenIDE-Module-Module-Dependencies="org.netbeans.api.annotations.common/1 &gt; 1.24.1, org.netbeans.modules.editor.indent/2 &gt; 1.37.1, org.netbeans.modules.options.api/1 &gt; 1.41.1, org.openide.util &gt; 8.39.1, org.openide.util.lookup &gt; 8.25.1, org.openide.awt &gt; 7.62.1, org.netbeans.modules.autoupdate.services &gt; 1.47.2" OpenIDE-Module-Name="SQ-Belle" OpenIDE-Module-Requires="org.openide.modules.ModuleFormat1" OpenIDE-Module-Short-Description="The missing Netbeans code formatter for x-sql." OpenIDE-Module-Specification-Version="2.0"/>
+    
 </module>
+
+<license name="5898AA3A">Copyright (c) 2014, Thorsten Hell
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the {organization} nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-----------------------------------------------------
+BSD</license>
+</module_updates>
+
