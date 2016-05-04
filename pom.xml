@@ -10,7 +10,7 @@
    
     <groupId>de.cismet.tools</groupId>
     <artifactId>sq-belle</artifactId>
-    <version>1.0</version>
+    <version>2.0</version>
     <packaging>nbm</packaging>
     
     <name>SQ-Belle</name>
@@ -34,15 +34,20 @@
         <connection>scm:git:https://github.com/cismet/sq-belle.git</connection>
         <developerConnection>scm:git:git@github.com:cismet/sq-belle.git</developerConnection>
         <url>https://github.com/cismet/sq-belle</url>
-        <tag>sq-belle-1.0</tag>
+        <tag>2.0</tag>
     </scm>
     
     
     <properties>
-        <netbeans.version>RELEASE70</netbeans.version>
+        <netbeans.version>RELEASE802</netbeans.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>3.5.6-Final</version>
+        </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-api-annotations-common</artifactId>

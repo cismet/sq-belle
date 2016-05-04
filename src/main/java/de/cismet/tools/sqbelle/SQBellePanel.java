@@ -35,9 +35,7 @@ final class SQBellePanel extends javax.swing.JPanel {
     private final SQBelleOptionsPanelController controller;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton cmdFork;
     private javax.swing.JButton cmdModule;
-    private javax.swing.JButton cmdOriginal;
     private javax.swing.JButton cmdReportIssue;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -67,8 +65,6 @@ final class SQBellePanel extends javax.swing.JPanel {
         jLabel1 = new javax.swing.JLabel();
         txtWebserviceUrl = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        cmdOriginal = new javax.swing.JButton();
-        cmdFork = new javax.swing.JButton();
         cmdModule = new javax.swing.JButton();
         cmdReportIssue = new javax.swing.JButton();
 
@@ -76,9 +72,11 @@ final class SQBellePanel extends javax.swing.JPanel {
             jLabel1,
             org.openide.util.NbBundle.getMessage(SQBellePanel.class, "SQBellePanel.jLabel1.text")); // NOI18N
 
+        txtWebserviceUrl.setEditable(false);
         txtWebserviceUrl.setText(org.openide.util.NbBundle.getMessage(
                 SQBellePanel.class,
                 "SQBellePanel.txtWebserviceUrl.text")); // NOI18N
+        txtWebserviceUrl.setEnabled(false);
         txtWebserviceUrl.addActionListener(new java.awt.event.ActionListener() {
 
                 @Override
@@ -91,34 +89,6 @@ final class SQBellePanel extends javax.swing.JPanel {
             jLabel2,
             org.openide.util.NbBundle.getMessage(SQBellePanel.class, "SQBellePanel.jLabel2.text")); // NOI18N
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
-
-        cmdOriginal.setFont(new java.awt.Font("Lucida Grande", 0, 17));                                 // NOI18N
-        cmdOriginal.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/tools/sqbelle/GitHub-Mark-32px.png")));              // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(
-            cmdOriginal,
-            org.openide.util.NbBundle.getMessage(SQBellePanel.class, "SQBellePanel.cmdOriginal.text")); // NOI18N
-        cmdOriginal.addActionListener(new java.awt.event.ActionListener() {
-
-                @Override
-                public void actionPerformed(final java.awt.event.ActionEvent evt) {
-                    cmdOriginalActionPerformed(evt);
-                }
-            });
-
-        cmdFork.setFont(new java.awt.Font("Lucida Grande", 0, 17));                                 // NOI18N
-        cmdFork.setIcon(new javax.swing.ImageIcon(
-                getClass().getResource("/de/cismet/tools/sqbelle/GitHub-Mark-32px.png")));          // NOI18N
-        org.openide.awt.Mnemonics.setLocalizedText(
-            cmdFork,
-            org.openide.util.NbBundle.getMessage(SQBellePanel.class, "SQBellePanel.cmdFork.text")); // NOI18N
-        cmdFork.addActionListener(new java.awt.event.ActionListener() {
-
-                @Override
-                public void actionPerformed(final java.awt.event.ActionEvent evt) {
-                    cmdForkActionPerformed(evt);
-                }
-            });
 
         cmdModule.setFont(new java.awt.Font("Lucida Grande", 0, 17));                                 // NOI18N
         cmdModule.setIcon(new javax.swing.ImageIcon(
@@ -158,16 +128,17 @@ final class SQBellePanel extends javax.swing.JPanel {
                         javax.swing.GroupLayout.PREFERRED_SIZE,
                         0,
                         Short.MAX_VALUE).addGroup(
-                        layout.createSequentialGroup().addComponent(cmdOriginal).addPreferredGap(
-                            javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(cmdFork).addPreferredGap(
-                            javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(cmdModule).addPreferredGap(
+                        layout.createSequentialGroup().addComponent(cmdModule).addPreferredGap(
                             javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(cmdReportIssue).addGap(
                             0,
                             0,
                             Short.MAX_VALUE)).addGroup(
                         layout.createSequentialGroup().addComponent(jLabel1).addPreferredGap(
-                            javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(txtWebserviceUrl)))
-                            .addContainerGap()));
+                            javax.swing.LayoutStyle.ComponentPlacement.RELATED).addComponent(
+                            txtWebserviceUrl,
+                            javax.swing.GroupLayout.DEFAULT_SIZE,
+                            518,
+                            Short.MAX_VALUE))).addContainerGap()));
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGroup(
                 layout.createSequentialGroup().addContainerGap().addGroup(
@@ -185,9 +156,8 @@ final class SQBellePanel extends javax.swing.JPanel {
                     145,
                     javax.swing.GroupLayout.PREFERRED_SIZE).addPreferredGap(
                     javax.swing.LayoutStyle.ComponentPlacement.RELATED).addGroup(
-                    layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE).addComponent(cmdOriginal)
-                                .addComponent(cmdFork).addComponent(cmdModule).addComponent(cmdReportIssue))
-                            .addContainerGap()));
+                    layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE).addComponent(cmdModule)
+                                .addComponent(cmdReportIssue)).addContainerGap()));
     } // </editor-fold>//GEN-END:initComponents
 
     /**
@@ -198,30 +168,6 @@ final class SQBellePanel extends javax.swing.JPanel {
     private void txtWebserviceUrlActionPerformed(final java.awt.event.ActionEvent evt) { //GEN-FIRST:event_txtWebserviceUrlActionPerformed
         // TODO add your handling code here:
     } //GEN-LAST:event_txtWebserviceUrlActionPerformed
-
-    /**
-     * DOCUMENT ME!
-     *
-     * @param  evt  DOCUMENT ME!
-     */
-    private void cmdOriginalActionPerformed(final java.awt.event.ActionEvent evt) { //GEN-FIRST:event_cmdOriginalActionPerformed
-        try {
-            Desktop.getDesktop().browse(new URL("https://github.com/andialbrecht/sqlparse").toURI());
-        } catch (Exception e) {
-        }
-    }                                                                               //GEN-LAST:event_cmdOriginalActionPerformed
-
-    /**
-     * DOCUMENT ME!
-     *
-     * @param  evt  DOCUMENT ME!
-     */
-    private void cmdForkActionPerformed(final java.awt.event.ActionEvent evt) { //GEN-FIRST:event_cmdForkActionPerformed
-        try {
-            Desktop.getDesktop().browse(new URL("https://github.com/cismet/sqlparse-flask-webservice").toURI());
-        } catch (Exception e) {
-        }
-    }                                                                           //GEN-LAST:event_cmdForkActionPerformed
 
     /**
      * DOCUMENT ME!
@@ -251,16 +197,12 @@ final class SQBellePanel extends javax.swing.JPanel {
      * DOCUMENT ME!
      */
     void load() {
-        txtWebserviceUrl.setText(NbPreferences.forModule(SQBellePanel.class).get(
-                WEBSERVICEURL_PREF_KEY,
-                WEBSERVICEURL_DEFAULT));
     }
 
     /**
      * DOCUMENT ME!
      */
     void store() {
-        NbPreferences.forModule(SQBellePanel.class).put(WEBSERVICEURL_PREF_KEY, txtWebserviceUrl.getText());
     }
 
     /**
