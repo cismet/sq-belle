@@ -21,10 +21,6 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel2" pref="0" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Component id="cmdOriginal" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="cmdFork" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="cmdModule" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="cmdReportIssue" min="-2" max="-2" attributes="0"/>
@@ -33,7 +29,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="txtWebserviceUrl" max="32767" attributes="0"/>
+                      <Component id="txtWebserviceUrl" pref="518" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -52,8 +48,6 @@
               <Component id="jLabel2" min="-2" pref="145" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="cmdOriginal" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="cmdFork" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cmdModule" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cmdReportIssue" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -72,9 +66,11 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtWebserviceUrl">
       <Properties>
+        <Property name="editable" type="boolean" value="false"/>
         <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
           <ResourceString bundle="de/cismet/tools/sqbelle/Bundle.properties" key="SQBellePanel.txtWebserviceUrl.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
         </Property>
+        <Property name="enabled" type="boolean" value="false"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtWebserviceUrlActionPerformed"/>
@@ -87,38 +83,6 @@
         </Property>
         <Property name="verticalAlignment" type="int" value="3"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="cmdOriginal">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="17" style="0"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/de/cismet/tools/sqbelle/GitHub-Mark-32px.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
-          <ResourceString bundle="de/cismet/tools/sqbelle/Bundle.properties" key="SQBellePanel.cmdOriginal.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdOriginalActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="cmdFork">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Lucida Grande" size="17" style="0"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/de/cismet/tools/sqbelle/GitHub-Mark-32px.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
-          <ResourceString bundle="de/cismet/tools/sqbelle/Bundle.properties" key="SQBellePanel.cmdFork.text" replaceFormat="org.openide.util.NbBundle.getMessage({sourceFileName}.class, &quot;{key}&quot;)"/>
-        </Property>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cmdForkActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="cmdModule">
       <Properties>
